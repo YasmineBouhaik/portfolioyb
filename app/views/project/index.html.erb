@@ -1,0 +1,40 @@
+<div class=" <%= "transparent" if current_page?(root_path) %> navbar navbar-expand-sm navbar-lewagon justify-content-end">
+    <%= link_to root_path	, class: "navbar-brand" do %>
+      <%= image_tag "shelter.png" %>
+    <% end %>
+  </div>
+</div>
+
+<div class="container">
+<h1>Projects 👩‍💻</h1>
+</div>
+
+<div class="grid">
+  <div class="card-group m-5">
+    <div class="card g-col-6 g-col-md-4">
+      <%= image_tag "van.png", style: 'width:100%;' %>
+      <div class="card-body">
+        <div class=" <%= "transparent" if current_page?("https://vanyourlife.herokuapp.com/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
+          <%= link_to "https://vanyourlife.herokuapp.com/", class: "navbar-brand" do %>
+          <%= image_tag "camion.png" %>
+          <% end %>
+        </div>
+        <h4 class="card-title"> AirBnb Clone "Van Your Life" </h4>
+        <p class="card-text">The purpose was to clone the Airbnb app by renting our proper product. With my team, we had the idea to rent prepared vans, so that peaple could go on holidays with it.
+        As a user, the person is able to ask for rent but also rent his proper van to other people. Here, we worked on Ruby and the framework Ruby On Rails (model MVC and the CRUD was establish.)</p>
+      </div>
+    </div>
+    <div class="card g-col-6 g-col-md-4 ml-5">
+      <%= image_tag "ready1.png", class: 'bike' %>
+      <div class="card-body">
+        <div class=" <%= "transparent" if current_page?("http://www.bikeaway.live/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
+          <%= link_to "http://www.bikeaway.live/", class: "navbar-brand" do %>
+          <%= image_tag "logobike.png" %>
+          <% end %>
+        </div>
+        <h4 class="card-title"> "Bike Away" </h4>
+        <p class="card-text"> This app is for cyclists who wants to cycle with other people. As a user, the cyclist can propose itineraries to other cyclists and he can also join a trip that other cyclists proposed. An easy app to go out and cycling together !
+        It's mainly a responsive app for mobile.</p>
+      </div>
+    </div>
+</div>
