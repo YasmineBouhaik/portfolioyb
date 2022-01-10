@@ -1,2 +1,66 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);">
+  <div class="container">
+    <p>
+      <span id="banner-typed-text"></span>
+    </p>
+    <%= link_to "Discover", "#Ancre", class: 'btn btn-secondary'%>
+  </div>
+</div>
+
+<div class="title mt-5 mb-4">
+  <h2 id="Ancre">About me</h2>
+</div>
+
+<div class="container">
+    <div class="card-body">
+      <img class="avatar-large mb-3 text-center" alt="avatar-large" src="https://avatars.githubusercontent.com/u/89265583?v=4" />
+      <p>Hi, my name is Yasmine, I'm 33 and I live in Lille, Northen of France</p>
+      <p> Contact: <br>📱 06 86 00 10 28 <br> ✉️ yasmine.bouhaik@gmail.com <br>
+      <a href="https://github.com/YasmineBouhaik"><i class="fab fa-github"></i></a> Github <br>
+      <a href="https://www.linkedin.com/in/yasminebouhaik/"><i class="fab fa-linkedin"></i></a> Linkedin
+
+      <p>Since January 2022, I'm a Fullstack Developer. In only nine intensive weeks, I have learned all the skills of a Software Developer. I have coded my own web applications from scratch and change my career.
+      I used to work with kids in high schools as a educational assistant. I only knew a little bit of code. I had a crazy experience and I can't wait to use my skills in my new job !</p>
+    </div>
+  </div>
+
+<div class="grid">
+  <div class="card-group m-5">
+    <div class="card g-col-6 g-col-md-4">
+      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title"> I am a Fullstack Developer Junior</h4>
+        <p class="card-text">I have been trained at Le Wagon Lille. It was very challenging for me because I knew just a little bit of code ! I'm proud of what we've build with my team and what I've learned in only nine weeks ! Now, I want to improve my skills</p>
+        <%= link_to "Discover", fullstack_path, class: 'btn btn-secondary'%>
+      </div>
+    </div>
+    <div class="card g-col-6 g-col-md-4 ml-3">
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title"> I work on different projects</h4>
+        <p class="card-text">Professional and personnal <br> I actually work on my app idea that I worked on with my team at Le Wagon. It's "Bike Away Live", an app for cyclists and I'm looking forward to work on other differents projects</p>
+        <%= link_to "Discover", project_path, class: 'btn btn-secondary'%>
+      </div>
+    </div>
+    <div class="card g-col-6 g-col-md-4 ml-3">
+      <img src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">My interests</h4>
+        <p class="card-text">I love travelling, meet people and taking pictures. I also play music, I'm a drum player and I'm looking to play guitare too ! Besides that, I'm kind of a sport addict and I always look to challenge myself <br></p>
+        <br>
+        <%= link_to "Discover", interest_path, class: 'btn btn-secondary'%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer mt-3">
+  <div class="footer-links">
+    <a href="https://github.com/YasmineBouhaik"><i class="fab fa-github"></i></a>
+    <a href="https://www.notion.so/yasminebouhaik/Yasmine-Bouhaik-D-veloppement-Web-6f3d77882eeb46d7a0bc23f07741c8e8"><img src="https://img.icons8.com/material-outlined/24/000000/notion--v1.png"/>
+    <a href="https://www.linkedin.com/in/yasminebouhaik/"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This page is made with <i class="fas fa-heart"></i>
+  </div>
+</div>
