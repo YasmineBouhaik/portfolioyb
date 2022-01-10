@@ -1,0 +1,2 @@
+class FullstackController < ApplicationController
+end
