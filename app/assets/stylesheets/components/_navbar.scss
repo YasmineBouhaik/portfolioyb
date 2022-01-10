@@ -1,12 +1,33 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 50px;
+  border-radius:10%;
+}
+
+.fa-1x {
+font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+
+.black-text {
+color: #417d95;
+}
+
+#navbarSupportedContent1 {
+  background-color:transparent ;
+}
+
+.navbar-nav {
+  color: #417d95;
+  opacity: 0,4;
+  padding:8px;
+  width: 180px;
+  height: 160px;
+  border-radius: 5% 5% 5% 5%;
+    a {
+    text-decoration: none;
+    }
+  position: fixed;
 }
