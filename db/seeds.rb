@@ -16,93 +16,93 @@
 require "open-uri"
 
 puts 'Cleaning database...'
-Trip.destroy_all # if Rails.env.development?
+Project.destroy_all # if Rails.env.development?
 
 puts "Creating awesome trips !"
 
-trip1 = Trip.new(address: "Inde")
-trip1.save!
+interest1 = Interest.new(address: "Inde")
+interest1.save!
 
-trip2 = Trip.new(address: "Vietnam")
-trip2.save!
+interest2 = Interest.new(address: "Vietnam")
+interest2.save!
 
-trip3 = Trip.new(address: "Laos")
-trip3.save!
+interest3 = Interest.new(address: "Laos")
+interest3.save!
 
-trip4 = Trip.new(address: "Argentine")
-trip4.save!
+interest4 = Interest.new(address: "Argentine")
+interest4.save!
 
-trip5 = Trip.new(address: "Canada")
-trip5.save!
+interest5 = Interest.new(address: "Canada")
+interest5.save!
 
-trip6 = Trip.new(address: "Angleterre")
-trip6.save!
+interest6 = Interest.new(address: "Angleterre")
+interest6.save!
 
-trip7 = Trip.new(address: "Suède")
-trip7.save!
+interest7 = Interest.new(address: "Suède")
+interest7.save!
 
-trip8 = Trip.new(address: "Ecosse")
-trip8.save!
+interest8 = Interest.new(address: "Ecosse")
+interest8.save!
 
-trip9 = Trip.new(address: "Espagne")
-trip9.save!
+interest9 = Interest.new(address: "Espagne")
+interest9.save!
 
-trip10 = Trip.new(address: "Portugal")
-trip10.save!
+interest10 = Interest.new(address: "Portugal")
+interest10.save!
 
-trip11 = Trip.new(address: "Algérie")
-trip11.save!
+interest11 = Interest.new(address: "Algérie")
+interest11.save!
 
-trip12 = Trip.new(address: "Maroc")
-trip12.save!
+interest12 = Interest.new(address: "Maroc")
+interest12.save!
 
-trip13 = Trip.new(address: "Tunisie")
-trip13.save!
+interest13 = Interest.new(address: "Tunisie")
+interest13.save!
 
-trip14 = Trip.new(address: "Estonie")
-trip14.save!
+interest14 = Interest.new(address: "Estonie")
+interest14.save!
 
-trip15 = Trip.new(address: "Lettonie")
-trip15.save!
+interest15 = Interest.new(address: "Lettonie")
+interest15.save!
 
-trip16 = Trip.new(address: "Lituanie")
-trip16.save!
+interest16 = Interest.new(address: "Lituanie")
+interest16.save!
 
-trip17 = Trip.new(address: "Pologne")
-trip17.save!
+interest17 = Interest.new(address: "Pologne")
+interest17.save!
 
-trip18 = Trip.new(address: "Allemagne")
-trip18.save!
+interest18 = Interest.new(address: "Allemagne")
+interest18.save!
 
-trip19 = Trip.new(address: "Italie")
-trip19.save!
+interest19 = Interest.new(address: "Italie")
+interest19.save!
 
-trip21 = Trip.new(address: "Danemark")
-trip21.save!
+interest21 = Interest.new(address: "Danemark")
+interest21.save!
 
-trip22 = Trip.new(address: "Pays-Bas")
-trip22.save!
+interest22 = Interest.new(address: "Pays-Bas")
+interest22.save!
 
-trip23 = Trip.new(address: "Belgique")
-trip23.save!
+interest23 = Interest.new(address: "Belgique")
+interest23.save!
 
-trip24 = Trip.new(address: "France")
-trip24.save!
+interest24 = Interest.new(address: "France")
+interest24.save!
 
-trip25 = Trip.new(address: "Luxembourg")
-trip25.save!
+interest25 = Interest.new(address: "Luxembourg")
+interest25.save!
 
-trip26 = Trip.new(address: "République-Tchèque")
-trip26.save!
+interest26 = Interest.new(address: "République-Tchèque")
+interest26.save!
 
-trip27 = Trip.new(address: "Grèce")
-trip27.save!
+interest27 = Interest.new(address: "Grèce")
+interest27.save!
 
-trip28 = Trip.new(address: "Suisse")
-trip28.save!
+interest28 = Interest.new(address: "Suisse")
+interest28.save!
 
-trip29 = Trip.new(address: "Corse")
-trip29.save!
+interest29 = Interest.new(address: "Corse")
+interest29.save!
 
-trip30 = Trip.new(address: "Ireland")
-trip30.save!
+interest30 = Interest.new(address: "Ireland")
+interest30.save!
