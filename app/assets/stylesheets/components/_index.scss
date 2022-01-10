@@ -5,3 +5,31 @@
 @import "banner";
 @import "footer";
 @import "card-category";
+
+.container {
+  h1 {
+    text-align: center;
+    color: #417d95;
+  }
+}
+
+.index-card {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  color: #417d95
+}
+
+.bike {
+  width: 100%;
+  background-size: cover;
+}
+
+.card-body {
+   a {
+  text-decoration: none;
+  color: black;
+  }
+}

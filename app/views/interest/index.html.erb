@@ -1,0 +1,49 @@
+<div class="index-card">
+  <div class=" <%= "transparent" if current_page?(root_path) %> navbar navbar-expand-sm navbar-lewagon justify-content-end">
+    <%= link_to root_path	, class: "navbar-brand" do %>
+      <%= image_tag "shelter.png" %>
+    <% end %>
+  </div>
+
+  <div class="container">
+    <h1> My world tour </h1>
+  </div>
+
+  <div class="container mt-5">
+    <div class="col-12 justify-content-center mb-5" id="map"
+      style="width: 100%; height: 500px;"
+      data-markers="<%= @markers.to_json %>"
+      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
+  </div>
+
+<div class="container">
+    <h1> Music and sport </h1>
+  </div>
+
+ <div class="grid">
+  <div class="card-group m-5">
+    <div class="card g-col-6 g-col-md-4 mb-3">
+      <%= image_tag "bots.png", style: 'width:100%;' %>
+      <div class="card-body">
+        <h4 class="card-title"> I'm a drumplayer </h4>
+        <p class="card-text"> I used to play in this music group called "Beans On Toast Salvation" with my brother and two friends. We've played for many years together and we also played live in Paris in different places: La Boule Noire, Le Petit Bain, Le Batofar etc.</p>
+          <div class=" <%= "transparent" if current_page?("http://www.bikeaway.live/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
+          <%= link_to "https://www.deezer.com/search/beans%20on%20toast%20salvation", class: "navbar-brand" do %>
+          <p>You can listen</p>
+          <%= image_tag "logobots.png" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="card g-col-6 g-col-md-4 ml-3 mb-3">
+      <img class="avatar-small mb-3 mt-3 " alt="avatar-large" src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/s552x414/71099055_10157512382201797_8447668078107426816_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=da31f3&_nc_ohc=lX0-OUeZV3EAX_n-2v1&_nc_ht=scontent-cdt1-1.xx&oh=00_AT-lbyRwaY6ixPwwUoPi1QdAkvH0aAj2LYoSS4qCD0zSpg&oe=61FB7F13" />
+      <div class="card-body">
+        <h4 class="card-title"> I like challenging myself</h4>
+        <p class="card-text"> The "Paris-Versailles" race, semi-marathons, 10 km... <br>
+        I'd love to travel with my bike too !
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
