@@ -6,19 +6,47 @@
 </div>
 
 <div class="container my-3">
-<h1>My skills 💡</h1>
+<h1> What I have learned 💡</h1>
 <br>
 <br>
 <br>
-  <div class="container d-flex justify-content-left">
-    <%= image_tag "cv.png", style: 'width:30%;' %>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card-skill">
+      <div class="card-body">
+        <p class="card-text"><strong>Understanding</strong> the core concepts of object-oriented programming (Ruby)</p>
+      </div>
+      <div class="card-body">
+        <p class="card-text"><strong>Designing</strong> a relational database and build queries with SQL
+          Build the UI (User Interface) following atomic design framework</p>
+      </div>
+       <div class="card-body">
+        <p class="card-text"><strong>Learning ES6</strong> (last version of Javascript) as a second programming language</p>
+      </div>
+       <div class="card-body">
+        <p class="card-text"><strong>Discovering</strong>  TDD (Test Driven Development) and learn how to cover my application's code with unit tests</p>
+      </div>
+    </div>
   </div>
-  <br>
-  <br>
-  <br>
-  <h1>What I have learned 💡</h1>
-  <br>
-  <br>
-  <br>
-  <%= image_tag "Web_Dev_Icons.png", style: 'width:100%;' %>
+  <div class="col-sm-6">
+    <div class="card-skill">
+      <div class="card-body">
+        <p class="card-text"><strong>Structuring</strong> the software following design patterns like MVC
+          Integrate a 3rd party service using an API or scrape HTML data</p>
+      </div>
+       <div class="card-body">
+        <p class="card-text"><strong>Coding</strong> a CSS library using recent techniques like flexbox or CSS grid</p>
+      </div>
+      <div class="card-body">
+        <p class="card-text"><strong>Adopting</strong> the right technical workflow: design the wireframe & mockup, test the UX with a prototype, split the user stories across my team and collaborate with branch and pull requests with git and Github</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+  <div class="container d-flex justify-content-right">
+    <%= image_tag "Web_Dev_Icons.png", style: 'width:100%;' %>
+  </div>
 </div>
