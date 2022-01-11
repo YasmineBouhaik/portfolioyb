@@ -1,5 +1,5 @@
 class InterestController < ApplicationController
-    def index
+  def index
     @trips = Trip.all
     @markers = @trips.geocoded.map do |trip|
       {
