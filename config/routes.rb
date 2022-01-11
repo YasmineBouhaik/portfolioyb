@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "fullstack", to: "fullstack#index"
   get "project", to: "project#index"
   get "interest", to: "interest#index"
+  get "trip", to: "trips#index"
 end
