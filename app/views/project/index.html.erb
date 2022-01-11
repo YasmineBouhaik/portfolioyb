@@ -15,7 +15,7 @@
       <%= image_tag "van.png", style: 'width:100%;' %>
       <div class="card-body">
         <div class=" <%= "transparent" if current_page?("https://vanyourlife.herokuapp.com/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
-          <%= link_to "https://vanyourlife.herokuapp.com/", class: "navbar-brand" do %>
+          <%= link_to "https://vanyourlife.herokuapp.com/", target:"_blank", class: "navbar-brand" do %>
           <%= image_tag "camion.png" %>
           <% end %>
         </div>
@@ -28,7 +28,7 @@
       <%= image_tag "ready1.png", class: 'bike' %>
       <div class="card-body">
         <div class=" <%= "transparent" if current_page?("http://www.bikeaway.live/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
-          <%= link_to "http://www.bikeaway.live/", class: "navbar-brand" do %>
+          <%= link_to "http://www.bikeaway.live/", target:"_blank", class: "navbar-brand" do %>
           <%= image_tag "logobike.png" %>
           <% end %>
         </div>
