@@ -11,7 +11,7 @@
 
 <div class="grid">
   <div class="card-group m-5">
-    <div class="card g-col-6 g-col-md-4 ml-3">
+    <div class="card-p col-md-8 py-3 mr-3">
       <%= image_tag "van.png", style: 'width:100%;' %>
       <div class="card-body">
         <div class=" <%= "transparent" if current_page?("https://vanyourlife.herokuapp.com/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
@@ -24,8 +24,8 @@
         As a user, the person is able to ask for rent but also rent his proper van to other people. Here, we worked on Ruby and the framework Ruby On Rails (model MVC and the CRUD was establish.)</p>
       </div>
     </div>
-    <div class="card g-col-6 g-col-md-4 ml-3">
-      <%= image_tag "ready1.png", class: 'bike' %>
+    <div class="card col-md-4 py-3 d-flex align-items-center">
+      <%= image_tag "tel.png", style: 'width: 80%' %>
       <div class="card-body">
         <div class=" <%= "transparent" if current_page?("http://www.bikeaway.live/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
           <%= link_to "http://www.bikeaway.live/", target:"_blank", class: "navbar-brand" do %>
