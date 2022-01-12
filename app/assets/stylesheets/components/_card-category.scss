@@ -17,15 +17,3 @@
       color: white;
   }
 }
-
-.card-remove-link {
-  color: white;
-  position: absolute;
-  top: 0px;
-  right: 22px;
-  transform: rotate(45deg);
-  text-decoration: none;
-  &:hover{
-    color: red;
-  }
-}

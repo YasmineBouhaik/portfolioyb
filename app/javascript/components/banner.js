@@ -5,7 +5,7 @@ const loadDynamicBannerText = () => {
   const banner = document.querySelector('.banner');
   if (banner){
     new Typed('#banner-typed-text', {
-      strings: ["Yasmine BOUHAIK", "FullStack Developper 👩‍💻"],
+      strings: ["FullStack Developper"],
       typeSpeed: 50,
       loop: true
     });
