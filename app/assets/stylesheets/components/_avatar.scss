@@ -9,3 +9,8 @@
   text-align: center;
   position: relative;
 }
+
+.avatar-large:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

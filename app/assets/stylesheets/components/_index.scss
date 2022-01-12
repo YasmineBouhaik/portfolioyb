@@ -200,32 +200,3 @@
   grid-column-end: 4;
   height: 500px;
 }
-
-.card-container {
-    position: relative;
-    height: 250px;
-    width: 300px;
-}
-.card-container:hover .card-flip {
-    transform: rotateY(180deg);
-}
-.card-flip {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    transition: all 0.5s ease;
-    transform-style: preserve-3d;
-}
-.card-front {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    backface-visibility: hidden;
-}
-.card-back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    backface-visibility: hidden;
-    transform: rotateY(-180deg);
-}
