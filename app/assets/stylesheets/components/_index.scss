@@ -50,8 +50,12 @@
 }
 
 .card-group > .card {
-  border: none;
   background-color: #F4F4F4;
+  border: none;
+}
+
+.card-group > .card-home {
+  background-color: white;
 }
 
 .card-p {
