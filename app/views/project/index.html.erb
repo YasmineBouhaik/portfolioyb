@@ -10,7 +10,7 @@
 </div>
 
 <div class="grid">
-  <div class="card-project m-5 d-flex align-items-center">
+  <div class="row row-cols-auto card-project m-5 d-flex justify-content-center">
     <div class="card-p col-md-8 py-3 mr-3 ml-3 mt-0">
       <%= image_tag "van.png", style: 'width:100%;' %>
       <div class="card-body">
@@ -24,9 +24,9 @@
         As a user, the person is able to ask for rent but also rent his proper van to other people. Here, we worked on Ruby and the framework Ruby On Rails (model MVC and the CRUD was establish.)</p>
       </div>
     </div>
-    <div class="card-tel col-md-4 py-3 mr-3 align-items-center">
+    <div class="card-tel col-md-4 py-3">
       <%= image_tag "tel.png", style: 'width: 80%' %>
-      <div class="card-body">
+      <div class="card-body-tel">
         <div class=" <%= "transparent" if current_page?("http://www.bikeaway.live/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
           <%= link_to "http://www.bikeaway.live/", target:"_blank", class: "navbar-brand" do %>
           <%= image_tag "logobike.png" %>
@@ -37,15 +37,4 @@
         It's mainly a responsive app for mobile.</p>
       </div>
     </div>
-</div>
-
-<div class="footer mt-3">
-  <div class="footer-links">
-    <a href="https://github.com/YasmineBouhaik" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://www.notion.so/yasminebouhaik/Yasmine-Bouhaik-D-veloppement-Web-6f3d77882eeb46d7a0bc23f07741c8e8" target="_blank"><img src="https://img.icons8.com/material-outlined/24/000000/notion--v1.png"/>
-    <a href="https://www.linkedin.com/in/yasminebouhaik/" target="_blank"><i class="fab fa-linkedin"></i></a>
-  </div>
-  <div class="footer-copyright">
-    Portfolio YB 👩‍💻
-  </div>
 </div>
