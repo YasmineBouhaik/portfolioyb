@@ -12,6 +12,9 @@
     text-align: center;
     color: #417d95;
   }
+  p {
+    font-size: 18px;
+  }
 
   .container-title {
     h1 {
@@ -27,7 +30,7 @@
 }
 
 .index-card {
-  background-color: white;
+  background-color: #F4F4F4;
 }
 
 .title {
@@ -41,6 +44,10 @@
   color: black;
   border-radius: 0%;
   }
+   p {
+     font-size: 18px;
+     text-align: justify;
+   }
 }
 
 .card-title {
@@ -50,6 +57,11 @@
 }
 
 .card-group > .card {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.card-project > .card-tel {
   background-color: #F4F4F4;
   border: none;
 }
