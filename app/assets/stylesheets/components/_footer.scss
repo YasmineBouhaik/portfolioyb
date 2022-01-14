@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 95px;
-  padding: 0px 50px;
+  height: 70px;
+  padding: 0px 20px;
   color: rgba(0,0,0,0.6);
 }
 .footer-links {
@@ -20,7 +20,4 @@
 }
 .footer-links a:hover {
   opacity: 0.2;
-}
-.footer .fa-heart {
-  color: pink;
 }
