@@ -29,10 +29,9 @@
 <h1>Projects 👩‍🎨</h1>
 </div>
 
-<div class="grid m-auto">
-  <div class="row row-cols-auto card-project m-5 d-flex justify-content-center">
-    <div class="card-p col-md-8 py-3 mr-3 ml-3 mt-0">
-      <%= image_tag "van.png", style: 'width:100%;' %>
+ <div class="row ml-5 mr-5 mt-5">
+    <div class="col-12 col-md-6 mt-5">
+    <%= image_tag "van.png", style: 'width: 100%' %>
       <div class="card-body">
         <div class=" <%= "transparent" if current_page?("https://vanyourlife.herokuapp.com/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
           <%= link_to "https://vanyourlife.herokuapp.com/", target:"_blank", class: "navbar-brand" do %>
@@ -40,26 +39,31 @@
           <% end %>
         </div>
         <h4 class="card-title"> AirBnb Clone "Van Your Life" </h4>
-        <p class="card-text">The purpose was to clone the Airbnb app by renting our proper product. With my team, we had the idea to rent prepared vans, so that peaple could go on holidays with it.
-        As a user, the person is able to ask for rent but also rent his proper van to other people. Here, we worked on Ruby and the framework Ruby On Rails (model MVC and the CRUD was establish.)</p>
+        <p class="card-text">The purpose was to clone the Airbnb app by renting our proper product.<br>
+        With my team, we had the idea to rent prepared vans, so that peaple could go on holidays with it.
+        As a user, the person is able to ask for rent but also rent his proper van to other people. <br>
+        Here, we worked on Ruby and the framework Ruby On Rails (model MVC and the CRUD was establish.)</p>
       </div>
     </div>
-    <div class="card-tel col-md-4 py-3 m-auto">
-      <%= image_tag "tel.png", style: 'width: 80%' %>
+
+    <div class="col-12 col-md-6 mt-5">
+      <%= image_tag "away.png", style: 'width: 103%' %>
       <div class="card-body-tel">
         <div class=" <%= "transparent" if current_page?("http://www.bikeaway.live/") %> navbar navbar-expand-sm navbar-lewagon justify-content-top">
-          <%= link_to "http://www.bikeaway.live/", target:"_blank", class: "navbar-brand" do %>
+          <%= link_to "http://www.bikeaway.live/", target:"_blank", class: "navbar-brand mt-3" do %>
           <%= image_tag "logobike.png" %>
           <% end %>
         </div>
         <h4 class="card-title"> "Bike Away" </h4>
-        <p class="card-text"> This app is for cyclists who wants to cycle with other people. As a user, the cyclist can propose itineraries to other cyclists and he can also join a trip that other cyclists proposed. An easy app to go out and cycling together !
+        <p class="card-text"> This app is for cyclists who wants to cycle with other people. <br>
+        As a user, the cyclist can propose itineraries to other cyclists and he can also join a trip that other cyclists proposed.<br>
+        An easy app to go out and cycling together !
         It's mainly a responsive app for mobile.</p>
       </div>
     </div>
 </div>
 
-<div class="footer mt-3">
+<div class="footer mt-5">
   <div class="footer-links">
     <a href="https://github.com/YasmineBouhaik" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://www.notion.so/yasminebouhaik/Yasmine-Bouhaik-D-veloppement-Web-6f3d77882eeb46d7a0bc23f07741c8e8" target="_blank"><img src="https://img.icons8.com/material-outlined/24/000000/notion--v1.png"/>
