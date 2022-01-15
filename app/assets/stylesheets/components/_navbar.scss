@@ -7,27 +7,32 @@
 font-size: 1.5rem;
 }
 
+ul {
+  display: inline-block;
+  border: solid 2px #6791B2;
+  padding: 25px;
+  background-color: #e7ecef;
+}
+
 .navbar-toggler.toggler-example {
 cursor: pointer;
 }
 
 .black-text {
-color: #417d95;
-}
-
-#navbarSupportedContent1 {
-  background-color:transparent ;
+color: #204765;
 }
 
 .navbar-nav {
-  color: #417d95;
-  opacity: 0,4;
-  padding:8px;
+  color: #bde0fe;
+  opacity: 0,8;
+  padding: 8px;
   width: 180px;
   height: 160px;
   border-radius: 5% 5% 5% 5%;
+
     a {
     text-decoration: none;
+    color: #204765;
+    font-size: 18px;
     }
-  position: fixed;
 }
